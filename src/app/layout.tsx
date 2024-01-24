@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className} style={{ margin: 0, padding: 0,  boxSizing: 'border-box',position:'relative',width:'100%',height:'100%' }}>
+      <body className={inter.className} style={{ margin: 0, padding: 0,  boxSizing: 'border-box',position:'relative',width:'100%',height:'100vh' }}>
       <Providers>
       <Image
         src={backGround}
